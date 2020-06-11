@@ -23,4 +23,8 @@ Route::group([
     $router->resource('usrs5', 'UserController');
     $router->resource('uers5', 'UserController');
 
+    $router->resource('set', 'UserController');
+    $router->resource('set1', 'UserController');
+    $router->resource('set2', 'UserController');
+
 });
