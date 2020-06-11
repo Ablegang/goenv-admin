@@ -14,8 +14,13 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('users', 'UserController');
-    $router->resource('users9', 'UserController');
-    $router->resource('usersaksd', 'UserController');
-    $router->resource('userssss', 'UserController');
+    $router->resource('users2', 'UserController');
+    $router->resource('users3', 'UserController');
+    $router->resource('users4', 'UserController');
+    $router->resource('users5', 'UserController');
+    $router->resource('user5', 'UserController');
+    $router->resource('uses5', 'UserController');
+    $router->resource('usrs5', 'UserController');
+    $router->resource('uers5', 'UserController');
 
 });
