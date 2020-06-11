@@ -12,6 +12,7 @@ Route::group([
     'middleware' => config('admin.route.middleware'),
 ], function (Router $router) {
 
+    
     $router->get('/', 'HomeController@index');
 
 });
