@@ -26,5 +26,6 @@ Route::group([
     $router->resource('set', 'UserController');
     $router->resource('set1', 'UserController');
     $router->resource('set2', 'UserController');
+    // 9
 
 });
