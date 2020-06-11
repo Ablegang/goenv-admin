@@ -8,8 +8,6 @@ class HomeController extends Controller
 {
     public function index(Content $content)
     {
-        return $content
-            ->full()
-            ->row();
+        return 1;
     }
 }
